@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    height: 50vh;
+    background-color: grey;
+    /* display: flex;
+    justify-content: center;
+    /* align-items: center; */ 
+    /* border: 2rem solid blue  ;
+    margin: 5rem;
+    padding: 10rem;
+}
+
+.content1 {
+    background-color: red;
+    color: white;
+    padding: 2rem;
+    border: 2rem solid blue;
+    /* margin: 5rem; */
+}
+
+.content2 {
+    background-color: red;
+    color: white;
+    padding: 2rem;
+    border: 2rem solid blue;
+}

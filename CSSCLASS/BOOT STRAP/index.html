@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<!-- Bootstrap typograph -->
+<section class="container">
+<p class="h1">This is h1 in Bootstrap</p>
+<p class="h2">This is h2 in Bootstrap</p>
+<p class="h3">This is h3 in Bootstrap</p>
+<p class="h4">This is h4 in Bootstrap</p>
+<p class="h5">This is h5 in Bootstrap</p>
+<p class="h6">This is h6 in Bootstrap</p>
+<br><br>
+
+<!-- Html Headings -->
+
+<h1>This is h1 in our normal html tags</h1>
+<h2>This is h1 in our normal html tags</h2>
+<h3>This is h1 in our normal html tags</h3>
+<h4>This is h1 in our normal html tags</h4>
+<h5>This is h1 in our normal html tags</h5>
+<h6>This is h1 in our normal html tags</h6>
+<br><br>
+
+<!-- Bootstrap  Display Property -->
+
+<p class="fontdisplay display-1">this is display-1 in bootstrap</p>
+<p class="display-2">this is display-2 in bootstrap</p>
+<p class="display-3">this is display-3 in bootstrap</p>
+<p class="display-4">this is display-4 in bootstrap</p>
+<p class="display-5">this is display-5 in bootstrap</p>
+<p class="display-6">this is display-6 in bootstrap</p>
+
+<!-- Bootstrap Alignment -->
+<div class="text-end">
+    <p>This is a text Aligned to the end of the element</p>
+</div>
+<div class="text-start">
+    <p>This is a text Aligned to the end of the element</p>
+</div>
+<div class="text-center">
+    <p>This is a text Aligned to the end of the element</p>
+</div>
+<br><br>
+
+</section>
+
+<section class="container bg-info">
+    <div class="container">
+        <p class="bg-warning">this is a text here</p>
+        <p class="bg-danger">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque commodi earum quam possimus inventore explicabo harum illum. Ea optio sunt repudiandae. Placeat incidunt reiciendis aut cumque excepturi expedita cum voluptatibus.</p>
+        <p class="bg-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque commodi earum quam possimus inventore explicabo harum illum. Ea optio sunt repudiandae. Placeat incidunt reiciendis aut cumque excepturi expedita cum voluptatibus.</p>
+    </div>
+</section>
+
+<section class="container">
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./pexels-photo-12883026.webp" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./pexels-photo-2148222.webp" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./pexels-photo-326503.webp" class="d-block w-50" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<section>
+  <div class="mb-4">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control border-success" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+<div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
+  Dangerous heading
+</div>
+
+<div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+  Changing border color and width
+</div>
+</section><br><br>
+
+<section>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</section>
+<br><br>
+
+<section class="py-5">
+  <div class="container text-center">
+  <div class="row">
+    <div class="col col-sm-2 col-lg-8">
+      Column1
+    </div>
+    <div class="col col-sm-6 col-lg-2">
+      Column2
+    </div>
+    <div class="col col-sm-2 col-lg-2">
+      Column3
+    </div>
+  </div>
+</div>
+</section><br><br>
+
+<section>
+  <div class="container overflow-hidden text-center">
+  <div class="row gx-5 gy-5">
+    <div class="col-6">
+      <div class="p-3">Custom column padding</div>
+    </div>
+    <div class="col-6">
+      <div class="p-3">Custom column padding</div>
+    </div>
+    <div class="col-6">
+      <div class="p-3">Custom column padding</div>
+    </div>
+    <div class="col-6">
+      <div class="p-3">Custom column padding</div>
+    </div>
+  </div>
+</div>
+</section><br><br>
+<!-- <section class="py-5 px-4 bg-lg-warning w-50">
+  <p class="py-5 px-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure facilis accusamus soluta saepe minus non id illo, cum corrupti ullam blanditiis aliquam reiciendis consequuntur veniam. Cupiditate eos animi non. Quo.</p>
+</section> -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>
